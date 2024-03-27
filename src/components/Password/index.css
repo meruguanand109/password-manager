@@ -1,0 +1,129 @@
+.Password-list-item {
+  list-style-type: none;
+  border: 1px solid #b6c3ca;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  width: 270px;
+}
+.delete-img {
+  width: 35px;
+  height: 35px;
+}
+.stars-img {
+  width: 125px;
+  height: 30px;
+}
+.delete-btn {
+  border: 0px;
+  background-color: transparent;
+  align-self: center;
+  justify-content: flex-end;
+}
+.profile {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  margin-right: 10px;
+}
+.Password-text-card {
+  width: 50%;
+  margin-right: 20px;
+}
+.websiteUrl {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.websiteName {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.websitePassword {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    font-size: 16px;
+    width: 40px;
+    border-radius: 80px;
+    height: 35px;
+  }
+  .Password-list-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .Password-text-card {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .websiteName {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .websitePassword {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .websiteUrl {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .delete-img {
+    width: 25px;
+    height: 25px;
+  }
+  .stars-img {
+    width: 80px;
+    height: 20px;
+  }
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}

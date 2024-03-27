@@ -1,0 +1,124 @@
+.list-container {
+  display: flex;
+  background-color: #5763a5;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.list-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-p {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+.password-count {
+  border: 1px solid white;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  padding: 4px;
+}
+.search-container {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+.input-search {
+  border: 0px;
+  outline: none;
+  width: 200px;
+  height: 100%;
+  font-size: 20px;
+  padding: 10px;
+  cursor: input;
+}
+.separator-h {
+  margin: 10px;
+}
+.show-password-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.password-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label-showpassword {
+  font-size: 24px;
+  color: white;
+}
+.input-showpassword {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+.no-passwords-img {
+  width: 40%;
+  height: 40%;
+}
+.no-passwords-text {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+}
+.passwords-container {
+  padding: 0px;
+  align-self: flex-start;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.password-count-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .list-p {
+    font-size: 14px;
+  }
+  .password-count {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .search-container {
+    height: 30px;
+  }
+  .input-search {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  .list-container {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .no-passwords-text {
+    font-size: 20px;
+  }
+  .input-showpassword {
+    width: 18px;
+    height: 18npx;
+    margin-right: 5px;
+  }
+  .label-showpassword {
+    font-size: 14px;
+  }
+}
